@@ -4,7 +4,7 @@ spring:
   application:
     name: GROUP1_ASSIGMENT_PROJECT
   datasource:
-    url: jdbc:postgresql://localhost:5432/spring_min_project_db
+    url: jdbc:postgresql://localhost:5432/assignment_group1
     username: postgres
     password: 2003
     driver-class-name: org.postgresql.Driver
@@ -13,6 +13,7 @@ spring:
       ddl-auto: update
     properties:
       hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
 logging:
   level:
     org.hibernate.SQL: DEBUG
